@@ -8,3 +8,38 @@ git commit -m [message]
 
 # 推送代码
 git push
+
+##########################################################
+# GIT创建分支提交到远程分支
+# step1.  创建本地分支
+git branch develop
+
+# step2. 将本地分支推送到远端
+git push origin develop
+
+# step3. 切换到该分支
+git checkout develop
+
+# step4. 查看本地修改
+git status
+
+# step5. 添加本地修改
+git add .
+
+# step 6. commit 提交修改
+git commit -m 'xxxx'
+
+# step 7. push推送代码
+git push
+
+# step 8. 查看分支
+git branch
+
+#step 9. 更新
+git pull
+
+# step 10.  合并到主分支
+git merge develop
+
+# step 11. push到主分支
+git push
