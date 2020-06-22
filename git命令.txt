@@ -1,0 +1,10 @@
+git基础命令
+
+# 暂存所有的文件
+git add .
+
+# 提交暂存的文件
+git commit -m [message]
+
+# 推送代码
+git push
